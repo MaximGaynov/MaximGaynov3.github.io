@@ -2028,7 +2028,7 @@ button,
 }
 
 .season-tickets__price p::after {
-  content: url("/img/season-tickets/rubl.png");
+  content: url("../img/season-tickets/rubl.png");
   padding-left: 14px;
 }
 
@@ -3411,7 +3411,7 @@ button.swiper-pagination-bullet {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 89%;
+  width: 85%;
   height: 50.83%;
 }
 
@@ -3435,6 +3435,7 @@ button.swiper-pagination-bullet {
 
 .advantages__amount--white-color {
   margin: -36px 0 0 -8px;
+  width: 100%;
 }
 
 .advantages__amount--white-color span {
@@ -3461,6 +3462,7 @@ button.swiper-pagination-bullet {
   position: initial;
   margin-top: -15px;
   margin-bottom: 34px;
+  width: 100%;
 }
 
 .advantages__measure--white-color span {
@@ -5524,7 +5526,7 @@ button.swiper-pagination-bullet {
   }
 
   .season-tickets__price p::after {
-    content: url("/img/season-tickets/rubl-mobile.png");
+    content: url("../img/season-tickets/rubl-mobile.png");
     padding-left: 10px;
   }
 

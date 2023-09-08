@@ -194,7 +194,7 @@
   transform: translate(-50%, -50%);
   text-align: center;
   justify-content: center;
-  width: 89%;
+  width: 85%;
   height: 50.83%;
 
   @include vp-1199 {
@@ -239,6 +239,7 @@
 
 .advantages__amount--white-color {
   margin: -36px 0 0 -8px;
+  width: 100%;
 
   @include vp-1199 {
     margin: -43px 0 0 -8px;
@@ -291,6 +292,7 @@
   position: initial;
   margin-top: -15px;
   margin-bottom: 34px;
+  width: 100%;
 
   @include vp-1199 {
     margin-top: -20px;

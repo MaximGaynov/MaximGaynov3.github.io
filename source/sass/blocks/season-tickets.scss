@@ -325,11 +325,11 @@
 }
 
 .season-tickets__price p::after {
-  content: url("/img/season-tickets/rubl.png");
+  content: url("../img/season-tickets/rubl.png");
   padding-left: 14px;
 
   @include vp-767 {
-    content: url("/img/season-tickets/rubl-mobile.png");
+    content: url("../img/season-tickets/rubl-mobile.png");
     padding-left: 10px;
   }
 }
