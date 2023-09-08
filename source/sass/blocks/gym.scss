@@ -1,0 +1,164 @@
+.gym {
+  width: 100%;
+  padding-bottom: 7px;
+
+  @include vp-1199 {
+    padding-bottom: 17px;
+  }
+
+  @include vp-767 {
+    padding-bottom: 70px;
+  }
+}
+
+.gym__container {
+  width: 85%;
+  min-width: 1160px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+
+  @include vp-1199 {
+    width: 88%;
+    min-width: 678px;
+  }
+
+  @include vp-767 {
+    width: 100%;
+    min-width: 290px;
+  }
+}
+
+.gym__wrapper {
+  width: 35.5%;
+  padding-left: 60px;
+  margin-top: 158px;
+
+  @include vp-1199 {
+    width: 88%;
+    min-width: 678px;
+    margin: 0 auto;
+    padding-left: 0;
+  }
+
+  @include vp-767 {
+    width: 91%;
+    min-width: 290px;
+  }
+}
+
+.gym__wrapper h2 {
+  font-family: "AlumniSans", "Verdana", sans-serif;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 58px;
+  letter-spacing: 0.03em;
+  color: $color-default-sapphire;
+  margin: 0;
+
+  @include vp-1199 {
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  @include vp-767 {
+    text-align: left;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 63px;
+    padding-bottom: 5px;
+  }
+}
+
+.gym__area p {
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  color: $color-default-sapphire;
+  margin: 8px 0 40px 0;
+
+  @include vp-1199 {
+    text-align: center;
+    margin: 0;
+  }
+
+  @include vp-767 {
+    text-align: left;
+    padding-bottom: 25px;
+  }
+}
+
+.gym__about p {
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: $color-default-sapphire;
+  margin: 0;
+
+  @include vp-1199 {
+    text-align: center;
+    width: 74%;
+    margin: 0 auto;
+  }
+
+  @include vp-767 {
+    text-align: left;
+    width: 96%;
+    margin: 0;
+  }
+}
+
+.gym__about--first p {
+  margin-bottom: 7px;
+
+  @include vp-1199 {
+    padding-top: 34px;
+    margin-bottom: 43px;
+  }
+
+  @include vp-767 {
+    padding: 0;
+    margin-bottom: 32px;
+    width: 90%;
+  }
+}
+
+.gym__about--second p {
+  @include vp-1199 {
+    display: none;
+  }
+}
+
+.gym__media {
+  margin-top: 120px;
+  background-color: $color-default-ghost-white;
+
+  @include vp-1199 {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  @include vp-767 {
+    margin-bottom: 40px;
+  }
+}
+
+.gym__media img {
+  object-fit: cover;
+
+  @include vp-1199 {
+    width: 100%;
+    height: 345px;
+  }
+
+  @include vp-767 {
+    height: 313px;
+  }
+}

@@ -1,0 +1,208 @@
+.accordion {
+  margin: 0 auto 0 auto;
+  display: block;
+
+  & & {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  &__element {
+    padding-bottom: 25px;
+    position: relative;
+    border-top: 1px solid rgba($color: $color-default-resolution-blue, $alpha: 0.2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include vp-1199 {
+      padding-bottom: 24px;
+
+      @include vp-767 {
+        padding-bottom: 20px;
+      }
+    }
+  }
+
+  &__element:not(:first-child) {
+    padding-bottom: 30px;
+
+    @include vp-1199 {
+      padding-bottom: 34px;
+    }
+
+    @include vp-767 {
+      padding-bottom: 20px;
+    }
+  }
+
+  &__element:last-child {
+    margin-bottom: 0;
+
+    @include vp-1199 {
+      margin-top: -2px;
+      padding-bottom: 29px;
+    }
+
+    @include vp-767 {
+      margin-top: -2px;
+      padding-bottom: 22.5px;
+    }
+  }
+
+  &__button {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: $color-default-ghost-white;
+    border: 1px solid $color-default-resolution-blue;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: calc(100% - 21px);
+    transform: translate(-50%, -50%);
+    padding: 0;
+
+    @include vp-1199 {
+      top: 49.5%;
+    }
+
+    @include vp-767 {
+      width: 32px;
+      height: 32px;
+      top: 49%;
+      left: calc(100% - 16px);
+    }
+  }
+
+  &__button:hover::before,
+  &__button:hover::after {
+    transform: rotate(180deg);
+    background-color: $color-default-white;
+  }
+
+  &__element.is-active > &__button,
+  &__element.is-active > &__button:hover {
+    position: absolute;
+    top: 26%;
+    left: calc(100% - 21px);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    background-color: $color-default-resolution-blue;
+
+    @include vp-767 {
+      left: calc(100% - 16px);
+      top: 24%;
+    }
+  }
+
+  &__element.is-active > &__button::before,
+  &__element.is-active > &__button::after {
+    transform: rotate(180deg);
+    background-color: $color-default-white;
+  }
+
+  &__element.is-active > &__button:hover::before,
+  &__element.is-active > &__button:hover::after {
+    transform: rotate(180deg);
+    background-color: $color-default-white;
+  }
+
+  &__element > &__button::before,
+  &__element > &__button::after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background: $color-default-resolution-blue;
+    position: absolute;
+    top: 49%;
+    left: 25%;
+    transform: rotate(90deg);
+    transition: all 0.3s ease-out;
+  }
+
+  &__element > &__button::after {
+    transform: rotate(0);
+    transition: all 0.3s ease-out;
+  }
+
+  & h3 {
+    font-family: "RobotoCondensed", "Verdana", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    color: $color-default-sapphire;
+    margin: 0;
+    padding: 32px 0 0 0;
+    width: 88.25%;
+    order: -1;
+
+    @include vp-1199 {
+      padding: 34px 0 0 0;
+      line-height: 24px;
+    }
+
+    @include vp-767 {
+      font-size: 18px;
+      line-height: 21.6px;
+      width: 75%;
+      padding: 20px 0 0 0;
+    }
+  }
+
+  &__element--tablet > h3 {
+    @include vp-1199 {
+      width: 70.5%;
+      padding-top: 30px;
+    }
+  }
+
+  &__element--mobile > h3 {
+    @include vp-767 {
+      width: 82.07%;
+    }
+  }
+
+  &__element.is-active > h3 {
+    padding: 32px 0 14px 0;
+
+    @include vp-1199 {
+      padding: 32px 0 18px 0;
+    }
+
+    @include vp-767 {
+      padding: 20px 0 12px 0;
+    }
+  }
+
+  &__content {
+    width: 78%;
+
+    @include vp-1199 {
+      width: 82%;
+    }
+
+    @include vp-767 {
+      width: 96.2%;
+    }
+  }
+
+  &__wrapper p {
+    font-family: "RobotoCondensed", "Verdana", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 25.2px;
+    color: $color-default-sapphire;
+    margin: 0;
+    padding: 0;
+
+    @include vp-767 {
+      width: 97%;
+      font-size: 16px;
+      line-height: 22.4px;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+.coaches {
+  width: 100%;
+  padding-bottom: 105px;
+
+  @include vp-1199 {
+    padding-bottom: 100px;
+  }
+
+  @include vp-767 {
+    padding-bottom: 70px;
+  }
+}
+
+.coaches__container {
+  margin: 0 auto;
+  width: 93.12%;
+  min-width: 1272px;
+  position: relative;
+
+  @include vp-1199 {
+    width: 88.28%;
+    min-width: 678px;
+  }
+
+  @include vp-767 {
+    width: 90.62%;
+    min-width: 290px;
+  }
+}
+
+.coaches__button-next {
+  right: 0;
+}
+
+.coaches__button-prev {
+  left: 0;
+}
+
+.coaches__button-next,
+.coaches__button-prev {
+  top: 64%;
+  color: $color-default-dark-grey;
+  --swiper-navigation-size: 32px;
+
+  @include vp-1199 {
+    top: 61%;
+  }
+}

@@ -1,0 +1,357 @@
+.promotions {
+  width: 100%;
+  padding-bottom: 120px;
+
+  @include vp-1199 {
+    padding: 0 0 100px 0;
+  }
+
+  @include vp-767 {
+    padding: 0 0 70px 0;
+  }
+}
+
+.promotions h2 {
+  font-family: "AlumniSans", "Verdana", sans-serif;
+  font-style: normal;
+  font-size: 54px;
+  line-height: 64.8px;
+  color: $color-default-sapphire;
+  letter-spacing: 0.03em;
+  padding-top: 135px;
+  padding-bottom: 34px;
+  margin: 0;
+  text-align: center;
+
+  @include vp-1199 {
+    font-size: 42px;
+    line-height: 50.4px;
+    padding-top: 92px;
+    padding-bottom: 40px;
+  }
+
+  @include vp-767 {
+    font-size: 32px;
+    line-height: 38.4px;
+    padding-top: 63px;
+    padding-bottom: 42px;
+  }
+}
+
+.promotions__container {
+  width: 84.92%;
+  min-width: 1160px;
+  min-height: 462px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  @include vp-1199 {
+    width: 88.28%;
+    min-width: 678px;
+    min-height: 703px;
+    flex-wrap: wrap;
+    align-content: space-between;
+  }
+
+  @include vp-767 {
+    width: 90.62%;
+    min-width: 290px;
+    min-height: 1080px;
+  }
+}
+
+.promotions__wrapper-1 {
+  width: 48.27%;
+  display: flex;
+  flex-wrap: nowrap;
+
+  @include vp-1199 {
+    width: 100%;
+    flex-wrap: wrap;
+    height: 65.72%;
+    min-height: 462px;
+    margin-bottom: 30px;
+  }
+
+  @include vp-767 {
+    height: 55.37%;
+    min-height: 598px;
+  }
+}
+
+.promotions__wrapper-2 {
+  width: 48.27%;
+  min-height: 211px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+
+  @include vp-1199 {
+    width: 100%;
+    height: 30%;
+    justify-content: space-between;
+  }
+
+  @include vp-767 {
+    height: 41.85%;
+    min-height: 452px;
+  }
+}
+
+.promotions__unlimited {
+  background-color: $color-default-torch-red;
+  width: 50%;
+  padding-left: 45px;
+  position: relative;
+
+  @include vp-1199 {
+    width: 41.15%;
+  }
+
+  @include vp-767 {
+    width: 100%;
+    height: 50%;
+    min-height: 299px;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+.promotions__unlimited h3 {
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28px;
+  line-height: 43.68px;
+  margin: 0;
+  color: $color-default-white;
+  padding-top: 35px;
+}
+
+.promotions__border {
+  width: 100%;
+  background: $red-to-blue;
+  outline: none;
+  height: 45.67%;
+  min-height: 211px;
+  position: relative;
+
+  @include vp-1199 {
+    width: 47.78%;
+  }
+
+  @include vp-767 {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.promotions__border:not(:last-child) {
+  justify-content: space-between;
+}
+
+.promotions__item {
+  width: 97%;
+  background: $color-default-white;
+  height: 94%;
+  cursor: pointer;
+  margin: 0 auto;
+  padding-left: 26px;
+  padding-top: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @include vp-1199 {
+    padding-left: 30px;
+    padding-top: 26px;
+  }
+
+  @include vp-767 {
+    padding-left: 0;
+    padding-top: 36px;
+  }
+}
+
+.promotions__item h3 {
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 26px;
+  line-height: 26px;
+  margin: 0;
+  color: $color-default-resolution-blue;
+}
+
+.promotions__item p {
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 22.4px;
+  margin: 0;
+  color: $color-default-resolution-blue;
+  padding-top: 10px;
+
+  @include vp-767 {
+    width: 78%;
+    padding-left: 21.2%;
+    padding-bottom: 20px;
+    padding-top: 12px;
+  }
+}
+
+.promotions__item--tablet-width p {
+  @include vp-1199 {
+    width: 80%;
+  }
+}
+
+.promotions__text p {
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25.2px;
+  color: $color-default-white;
+  margin: 0;
+  padding-top: 20px;
+  width: 81%;
+
+  @include vp-767 {
+    width: 83%;
+    padding: 0;
+    padding-left: 17%;
+    padding-bottom: 25px;
+    margin-top: -6px;
+  }
+}
+
+.promotions__link {
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 14.06px;
+  margin: 0;
+  letter-spacing: 0.05em;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-transform: uppercase;
+  color: $color-default-resolution-blue;
+  position: absolute;
+  top: 81%;
+  left: 0;
+  transform: translate(-50%, -50%);
+  margin-left: 60px;
+  padding: 10px;
+  outline: none;
+
+  @include vp-1199 {
+    margin-left: 64px;
+  }
+
+  @include vp-767 {
+    position: initial;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.promotions__link:hover {
+  opacity: 0.7;
+}
+
+.promotions__link:focus {
+  border: 1px solid $color-default-sapphire;
+  text-decoration: none;
+  margin-left: 80px;
+}
+
+.promotions__link:active {
+  opacity: 1;
+  padding: 0;
+  border: none;
+  margin-left: 70px;
+}
+
+.promotions__link:disabled {
+  opacity: 0.3;
+}
+
+.promotions__year p {
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 70px;
+  line-height: 109.2px;
+  margin: 0;
+  color: $color-default-white;
+  margin-top: -25px;
+}
+
+.promotions__link--white-color {
+  font-family: "RobotoCondensed", "Verdana", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 16.41px;
+  letter-spacing: 0.05em;
+  margin: 0;
+  color: $color-default-white;
+  top: 88.3%;
+  margin-left: 85px;
+  padding: 10px;
+  outline: none;
+
+  @include vp-767 {
+    position: initial;
+    margin-left: 0;
+  }
+}
+
+.promotions__link--white-color:hover {
+  opacity: 0.8;
+}
+
+.promotions__link--white-color:focus {
+  border: 1px solid $color-default-white;
+  text-decoration: none;
+  margin-left: 90px;
+}
+
+.promotions__link--white-color:active {
+  opacity: 1;
+  border: none;
+  margin-left: 80px;
+}
+
+.promotions__link--white-color:disabled {
+  opacity: 0.5;
+}
+
+.promotions__photo-wrapper {
+  width: 50%;
+
+  @include vp-1199 {
+    width: 58.85%;
+  }
+
+  @include vp-767 {
+    width: 100%;
+  }
+}
+
+.promotions__media {
+  background-color: $color-default-jordy-blue;
+}
+
+.promotions__media img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  background-color: $color-default-jordy-blue;
+}
