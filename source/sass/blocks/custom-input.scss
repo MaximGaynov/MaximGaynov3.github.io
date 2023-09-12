@@ -40,19 +40,21 @@
       }
 
       &:hover {
-        border-bottom: 1px solid rgba($color-default-white, 0.5);
+        outline: 1px solid rgba($color-default-white, 0.5);
       }
 
       &:focus {
         outline: 1px solid rgba($color-default-white, 1);
+        padding-left: 15px;
       }
 
       &:active {
         outline: 1px solid rgba($color-default-white, 1);
+        padding-left: 15px;
       }
 
       &:disabled {
-        border-bottom: 1px solid rgba($color-default-white, 0.4);
+        outline: 1px solid rgba($color-default-white, 0.4);
         color: rgba($color-default-white, 0.4);
       }
     }

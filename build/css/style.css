@@ -826,7 +826,7 @@ button,
 .custom-input label textarea:hover,
 .custom-textarea label input:hover,
 .custom-textarea label textarea:hover {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  outline: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .custom-input label input:focus,
@@ -834,6 +834,7 @@ button,
 .custom-textarea label input:focus,
 .custom-textarea label textarea:focus {
   outline: 1px solid white;
+  padding-left: 15px;
 }
 
 .custom-input label input:active,
@@ -841,13 +842,14 @@ button,
 .custom-textarea label input:active,
 .custom-textarea label textarea:active {
   outline: 1px solid white;
+  padding-left: 15px;
 }
 
 .custom-input label input:disabled,
 .custom-input label textarea:disabled,
 .custom-textarea label input:disabled,
 .custom-textarea label textarea:disabled {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  outline: 1px solid rgba(255, 255, 255, 0.4);
   color: rgba(255, 255, 255, 0.4);
 }
 
@@ -1468,7 +1470,7 @@ button,
 
 .hero {
   width: 100%;
-  background: conic-gradient(from 0.21turn at 20% 35%, rgb(184, 0, 39) 2%, rgb(0, 61, 133) 27%, rgb(0, 61, 133) 35%, rgb(184, 0, 39));
+  background: conic-gradient(from 0.21turn at 16% 39%, rgb(184, 0, 39) 2%, rgb(0, 61, 133) 23%, rgb(0, 61, 133) 35%, rgb(184, 0, 39));
   padding-bottom: 51px;
   padding-top: 51px;
 }
@@ -2062,7 +2064,7 @@ button,
   line-height: 14px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #103aae;
+  color: #102654;
   width: 60%;
   display: block;
   padding: 25px 44px;
@@ -3659,7 +3661,6 @@ button.swiper-pagination-bullet {
   line-height: 25.2px;
   color: #ffffff;
   margin: 0;
-  padding-top: 20px;
   width: 81%;
 }
 
@@ -3715,7 +3716,7 @@ button.swiper-pagination-bullet {
   line-height: 109.2px;
   margin: 0;
   color: #ffffff;
-  margin-top: -25px;
+  margin-top: -27px;
 }
 
 .promotions__link--white-color {
@@ -4016,7 +4017,6 @@ button.swiper-pagination-bullet {
   font-style: normal;
   font-size: 24px;
   line-height: 28.8px;
-  letter-spacing: 0.01em;
   color: #102654;
   margin: 0;
   padding: 32px 0 0 0;
@@ -4163,7 +4163,6 @@ button.swiper-pagination-bullet {
   border: none;
   padding: 10px 0 5px 0;
   min-height: auto;
-  border-bottom: 1px solid #74819c;
   max-width: 100vw;
 }
 
@@ -4202,6 +4201,7 @@ button.swiper-pagination-bullet {
 .free-lesson__wrapper {
   width: 46.34%;
   padding: 0;
+  border-bottom: 1px solid #74819c;
 }
 
 .free-lesson__name,
@@ -4215,6 +4215,7 @@ button.swiper-pagination-bullet {
   background-color: #102654;
   outline: none;
   width: 100%;
+  padding-left: 5px;
 }
 
 .free-lesson__name::-webkit-input-placeholder,
@@ -4240,6 +4241,31 @@ button.swiper-pagination-bullet {
 .free-lesson__name::placeholder,
 .free-lesson__tel::placeholder {
   color: #ffffff;
+}
+
+.free-lesson__name:focus::-webkit-input-placeholder,
+.free-lesson__tel:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.free-lesson__name:focus::-moz-placeholder,
+.free-lesson__tel:focus::-moz-placeholder {
+  opacity: 0;
+}
+
+.free-lesson__name:focus:-ms-input-placeholder,
+.free-lesson__tel:focus:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.free-lesson__name:focus::-ms-input-placeholder,
+.free-lesson__tel:focus::-ms-input-placeholder {
+  opacity: 0;
+}
+
+.free-lesson__name:focus::placeholder,
+.free-lesson__tel:focus::placeholder {
+  opacity: 0;
 }
 
 .free-lesson__send {
@@ -6017,7 +6043,7 @@ button.swiper-pagination-bullet {
 
   .free-lesson__wrapper {
     width: 100%;
-    padding-bottom: 10px;
+    margin-bottom: 9px;
   }
 
   .contacts__container {

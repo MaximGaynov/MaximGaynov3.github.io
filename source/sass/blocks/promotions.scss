@@ -218,7 +218,6 @@
   line-height: 25.2px;
   color: $color-default-white;
   margin: 0;
-  padding-top: 20px;
   width: 81%;
 
   @include vp-767 {
@@ -290,7 +289,7 @@
   line-height: 109.2px;
   margin: 0;
   color: $color-default-white;
-  margin-top: -25px;
+  margin-top: -27px;
 }
 
 .promotions__link--white-color {
