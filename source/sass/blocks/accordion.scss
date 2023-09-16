@@ -75,6 +75,13 @@
     }
   }
 
+  &__button:hover,
+  &__button:focus {
+    background-color: $color-default-resolution-blue;
+    outline: none;
+    opacity: 1;
+  }
+
   &__button:hover::before,
   &__button:hover::after {
     transform: rotate(180deg);
@@ -119,6 +126,21 @@
     left: 25%;
     transform: rotate(90deg);
     transition: all 0.3s ease-out;
+  }
+
+  &__element > &__button:hover::before,
+  &__element > &__button:hover::after,
+  &__element > &__button:focus::before,
+  &__element > &__button:focus::after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background: $color-default-white;
+    position: absolute;
+    top: 49%;
+    left: 25%;
+    transition: all 0.3s ease-out;
+    opacity: 1;
   }
 
   &__element > &__button::after {

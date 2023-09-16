@@ -138,7 +138,6 @@
 
 .gym__media {
   margin-top: 120px;
-  background-color: $color-default-ghost-white;
 
   @include vp-1199 {
     width: 100%;
@@ -152,6 +151,7 @@
 
 .gym__media img {
   object-fit: cover;
+  background-color: $color-default-ghost-white;
 
   @include vp-1199 {
     width: 100%;

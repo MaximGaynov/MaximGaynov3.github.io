@@ -118,8 +118,8 @@
   text-underline-offset: 20px;
   text-decoration-color: $color-default-crimson;
   outline: none;
+  opacity: 1;
 }
-
 
 .season-tickets__control:focus {
   color: rgba(16, 38, 84, 1);
@@ -128,6 +128,7 @@
   text-underline-offset: 20px;
   text-decoration-color: $color-default-crimson;
   outline: none;
+  opacity: 1;
 }
 
 .season-tickets__control:active {
@@ -379,6 +380,7 @@
   padding: 25px 44px;
   border: 2px solid $color-default-sapphire;
   margin: 0 auto;
+  user-select: none;
 
   @include vp-1199 {
     width: 49%;
@@ -400,6 +402,14 @@
   color: $color-default-white;
   background: $red-to-blue;
   border: 2px solid;
+}
+
+.season-tickets__button:active {
+  opacity: 0.7;
+}
+
+.season-tickets__button:disabled {
+  opacity: 0.3;
 }
 
 .season-tickets--unset .season-tickets__content {

@@ -119,7 +119,7 @@
 }
 
 .free-lesson__name:focus::placeholder,
-.free-lesson__tel:focus::placeholder  {
+.free-lesson__tel:focus::placeholder {
   opacity: 0;
 }
 
@@ -137,4 +137,16 @@
   border: 3px solid $color-default-white;
   padding: 17px 0 17px 0;
   cursor: pointer;
+  user-select: none;
+}
+
+.free-lesson__send:hover,
+.free-lesson__send:focus {
+  background-color: $color-default-white;
+  color: $color-default-sapphire;
+  outline: none;
+}
+
+.free-lesson__send:disabled {
+  opacity: 0.3;
 }

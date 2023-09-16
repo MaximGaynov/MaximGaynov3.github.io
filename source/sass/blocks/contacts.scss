@@ -148,9 +148,30 @@
   line-height: 21.33px;
   color: $color-default-sapphire;
   margin: 0;
+  text-decoration: none;
 
   @include vp-1199 {
     font-size: 18px;
     line-height: 27.42px;
   }
+}
+
+.contacts__wrapper a:hover {
+  opacity: 0.7;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  text-decoration-color: rgba($color: $color-default-sapphire, $alpha: 0.7);
+}
+
+.contacts__wrapper a:focus {
+  outline: 1px solid $color-default-sapphire;
+}
+
+.contacts__wrapper a:disabled {
+  opacity: 0.3;
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+  text-decoration-color: rgba($color: $color-default-sapphire, $alpha: 0.3);
 }
