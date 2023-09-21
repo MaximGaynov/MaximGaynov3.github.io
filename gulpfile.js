@@ -21,7 +21,7 @@ const syncServer = () => {
     ui: false,
   });
 
-  gulp.watch('source/**.{html,webmanifest}', gulp.series(copy, refresh));
+  gulp.watch('source/**.html', gulp.series(copy, refresh));
   gulp.watch('source/sass/**/*.{scss,sass}', streamStyles);
   gulp.watch('source/js/**/*.{js,json}', gulp.series(compileMainScripts, compileVendorScripts, refresh));
   gulp.watch('source/data/**/*.{js,json}', gulp.series(copy, refresh));

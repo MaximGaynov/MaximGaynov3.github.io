@@ -23,16 +23,31 @@
 }
 
 .header__logo--image {
-  margin-top: 38px;
+  margin-top: 30px;
+  padding: 10px 0 10px 0;
   align-self: center;
 
-  @include vp-1199 {
-    margin-top: 33px;
-  }
-
   @include vp-767 {
-    margin-top: 15px;
+    margin-top: 11px;
   }
+}
+
+.header__media:hover {
+  opacity: 0.8;
+}
+
+.header__media:focus {
+  outline: 1px solid $color-default-white;
+  margin-top: 28px;
+  padding: 10px;
+}
+
+.header__media:active {
+  opacity: 1;
+}
+
+.header__media:disabled {
+  opacity: 0.5;
 }
 
 .header__media img {
@@ -74,4 +89,20 @@
     margin-top: 16px;
     letter-spacing: 0.02em;
   }
+}
+
+.header__logo--tel:hover {
+  opacity: 0.8;
+}
+
+.header__logo--tel:focus {
+  outline: 1px solid $color-default-white;
+}
+
+.header__logo--tel:active {
+  opacity: 1;
+}
+
+.header__logo--tel:disabled {
+  opacity: 0.5;
 }

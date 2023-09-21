@@ -143,6 +143,12 @@
 .free-lesson__send:hover,
 .free-lesson__send:focus {
   background-color: $color-default-white;
+  color: $color-default-egyptian-blue;
+  outline: none;
+}
+
+.free-lesson__send:active {
+  background-color: $color-default-white;
   color: $color-default-sapphire;
   outline: none;
 }

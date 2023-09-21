@@ -671,7 +671,7 @@ button,
 }
 
 .btn.focus-visible:focus {
-  opacity: 0.8;
+  opacity: 1;
 }
 
 .modal {
@@ -878,14 +878,14 @@ button,
 
 .custom-input.is-valid,
 .custom-textarea.is-valid {
-  border-bottom: 1px solid #22b259;
+  border-bottom: 1px solid #ffffff;
 }
 
 .custom-input.is-valid:focus,
 .custom-input.is-valid:hover,
 .custom-textarea.is-valid:focus,
 .custom-textarea.is-valid:hover {
-  border-bottom: 1px solid rgba(34, 178, 89, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .custom-input .input-message,
@@ -901,7 +901,7 @@ button,
 
 .custom-input .input-message.is-valid,
 .custom-textarea .input-message.is-valid {
-  color: #15ab07;
+  color: #ffffff;
 }
 
 .custom-toggle {
@@ -1313,10 +1313,29 @@ button,
 }
 
 .header__logo--image {
-  margin-top: 38px;
+  margin-top: 30px;
+  padding: 10px 0 10px 0;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
+}
+
+.header__media:hover {
+  opacity: 0.8;
+}
+
+.header__media:focus {
+  outline: 1px solid #ffffff;
+  margin-top: 28px;
+  padding: 10px;
+}
+
+.header__media:active {
+  opacity: 1;
+}
+
+.header__media:disabled {
+  opacity: 0.5;
 }
 
 .header__media img {
@@ -1333,6 +1352,22 @@ button,
   text-decoration: none;
   margin-top: 30px;
   letter-spacing: 0.03em;
+}
+
+.header__logo--tel:hover {
+  opacity: 0.8;
+}
+
+.header__logo--tel:focus {
+  outline: 1px solid #ffffff;
+}
+
+.header__logo--tel:active {
+  opacity: 1;
+}
+
+.header__logo--tel:disabled {
+  opacity: 0.5;
 }
 
 .footer {
@@ -1506,6 +1541,7 @@ button,
 .hero__fitness p {
   font-family: "AlumniSans", "Verdana", sans-serif;
   font-style: normal;
+  font-weight: 600;
   font-size: 92px;
   line-height: 110px;
   color: #ffffff;
@@ -1562,7 +1598,6 @@ button,
   grid-column-start: 2;
   -ms-grid-row: 3;
   grid-row-start: 3;
-  overflow-x: hidden;
 }
 
 .hero__link {
@@ -3262,8 +3297,8 @@ button.swiper-pagination-bullet {
   margin: 0;
 }
 
-.swiper-slide:hover p,
-.swiper-slide:focus p {
+.swiper-coaches__slide:hover p,
+.swiper-coaches__slide:focus p {
   display: none;
 }
 
@@ -3767,13 +3802,14 @@ button.swiper-pagination-bullet {
 .promotions__link--white-color:focus {
   border: 1px solid #ffffff;
   text-decoration: none;
-  margin-left: 90px;
 }
 
 .promotions__link--white-color:active {
   opacity: 1;
   border: none;
-  margin-left: 80px;
+  margin-left: 85px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .promotions__link--white-color:disabled {
@@ -4340,6 +4376,12 @@ button.swiper-pagination-bullet {
 .free-lesson__send:hover,
 .free-lesson__send:focus {
   background-color: #ffffff;
+  color: #103aae;
+  outline: none;
+}
+
+.free-lesson__send:active {
+  background-color: #ffffff;
   color: #102654;
   outline: none;
 }
@@ -4508,10 +4550,6 @@ button.swiper-pagination-bullet {
   .header__container {
     width: 88%;
     min-width: 678px;
-  }
-
-  .header__logo--image {
-    margin-top: 33px;
   }
 
   .header__media img {
@@ -5340,7 +5378,7 @@ button.swiper-pagination-bullet {
   }
 
   .header__logo--image {
-    margin-top: 15px;
+    margin-top: 11px;
   }
 
   .header__media img {
@@ -6230,7 +6268,7 @@ button.swiper-pagination-bullet {
 
 @media (hover: hover) {
   .btn:hover:not(.focus-visible) {
-    opacity: 0.8;
+    opacity: 1;
   }
 
   .custom-select__item[aria-selected=true]:hover:not(.focus-visible) {

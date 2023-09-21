@@ -319,13 +319,14 @@
 .promotions__link--white-color:focus {
   border: 1px solid $color-default-white;
   text-decoration: none;
-  margin-left: 90px;
 }
 
 .promotions__link--white-color:active {
   opacity: 1;
   border: none;
-  margin-left: 80px;
+  margin-left: 85px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 .promotions__link--white-color:disabled {
