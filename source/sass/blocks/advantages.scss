@@ -154,7 +154,7 @@
 
   @include vp-767 {
     padding-top: 0;
-    padding-bottom: 14px;
+    padding-bottom: 18px;
   }
 }
 
@@ -171,7 +171,7 @@
   }
 
   @include vp-767 {
-    padding-top: 12px;
+    padding-top: 0;
     padding-bottom: 0;
     margin: 0;
   }
@@ -408,7 +408,7 @@
 
 .advantages__text--parking p {
   @include vp-767 {
-    margin-top: 3px;
+    margin-top: -3px;
   }
 }
 

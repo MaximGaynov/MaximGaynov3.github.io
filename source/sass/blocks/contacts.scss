@@ -6,6 +6,10 @@
     width: 100%;
     padding: 0 0 61px 0;
   }
+
+  @include vp-767 {
+    padding: 0 0 61px 0;
+  }
 }
 
 .contacts__container {
@@ -48,7 +52,7 @@
     font-size: 32px;
     line-height: 38.4px;
     padding-top: 64px;
-    padding-bottom: 32px;
+    padding-bottom: 35px;
   }
 }
 

@@ -5866,11 +5866,11 @@ button.swiper-pagination-bullet {
 
   .advantages__item--grid-comfort {
     padding-top: 0;
-    padding-bottom: 14px;
+    padding-bottom: 18px;
   }
 
   .advantages__item--grid-experience {
-    padding-top: 12px;
+    padding-top: 0;
     padding-bottom: 0;
     margin: 0;
   }
@@ -5928,7 +5928,7 @@ button.swiper-pagination-bullet {
   }
 
   .advantages__text--parking p {
-    margin-top: 3px;
+    margin-top: -3px;
   }
 
   .advantages__text--comfort p {
@@ -5987,9 +5987,9 @@ button.swiper-pagination-bullet {
 
   .promotions__item p {
     width: 78%;
-    padding-left: 21.2%;
+    padding-left: 21.5%;
     padding-bottom: 20px;
-    padding-top: 12px;
+    padding-top: 11px;
   }
 
   .promotions__text p {
@@ -5997,7 +5997,7 @@ button.swiper-pagination-bullet {
     padding: 0;
     padding-left: 17%;
     padding-bottom: 25px;
-    margin-top: -6px;
+    margin-top: -4px;
   }
 
   .promotions__link {
@@ -6149,7 +6149,7 @@ button.swiper-pagination-bullet {
     width: 30%;
     font-size: 20px;
     line-height: 26px;
-    margin: 49px 0 23px 100px;
+    margin: 49px 0 22px 100px;
   }
 
   .swiper-reviews__information p {
@@ -6171,8 +6171,8 @@ button.swiper-pagination-bullet {
   .free-lesson__container h2 {
     font-size: 32px;
     line-height: 38.4px;
-    padding-top: 65px;
-    padding-bottom: 10px;
+    padding-top: 63px;
+    padding-bottom: 11px;
     letter-spacing: 0.03em;
   }
 
@@ -6183,6 +6183,11 @@ button.swiper-pagination-bullet {
   .free-lesson__wrapper {
     width: 100%;
     margin-bottom: 9px;
+    padding: 0;
+  }
+
+  .contacts {
+    padding: 0 0 61px 0;
   }
 
   .contacts__container {
@@ -6195,7 +6200,7 @@ button.swiper-pagination-bullet {
     font-size: 32px;
     line-height: 38.4px;
     padding-top: 64px;
-    padding-bottom: 32px;
+    padding-bottom: 35px;
   }
 
   .contacts__container li {
