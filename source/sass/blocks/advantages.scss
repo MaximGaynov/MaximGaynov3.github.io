@@ -414,7 +414,7 @@
 
 .advantages__text--comfort p {
   @include vp-767 {
-    margin-top: 3px;
+    margin-top: -3px;
   }
 }
 

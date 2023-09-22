@@ -5932,7 +5932,7 @@ button.swiper-pagination-bullet {
   }
 
   .advantages__text--comfort p {
-    margin-top: 3px;
+    margin-top: -3px;
   }
 
   .advantages__info--white-color {
@@ -6223,7 +6223,7 @@ button.swiper-pagination-bullet {
 @media screen and (max-width: 767px) {
   .custom-input,
   .custom-textarea {
-    padding: 4px 0 48px;
+    padding: 0;
     width: 100%;
   }
 
