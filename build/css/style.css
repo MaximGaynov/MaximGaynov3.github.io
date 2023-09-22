@@ -3546,7 +3546,10 @@ button.swiper-pagination-bullet {
   margin: 0;
 }
 
-.advantages__text--parking h3,
+.advantages__text--parking h3 {
+  padding-bottom: 1px;
+}
+
 .advantages__text--experience h3 {
   padding-bottom: 1px;
 }
@@ -5061,7 +5064,10 @@ button.swiper-pagination-bullet {
     line-height: 30px;
   }
 
-  .advantages__text--parking h3,
+  .advantages__text--parking h3 {
+    padding-bottom: 0;
+  }
+
   .advantages__text--experience h3 {
     padding-bottom: 0;
   }
@@ -5682,7 +5688,7 @@ button.swiper-pagination-bullet {
   .season-tickets__price--shadow p {
     font-size: 80px;
     line-height: 120px;
-    top: 45.5%;
+    top: 50%;
   }
 
   .season-tickets__button {
@@ -5775,6 +5781,12 @@ button.swiper-pagination-bullet {
     min-width: 290px;
   }
 
+  .coaches__button-next,
+  .coaches__button-prev {
+    top: 62%;
+    --swiper-navigation-size: 20px;
+  }
+
   .swiper-coaches {
     width: 77.93%;
     min-width: 226px;
@@ -5854,11 +5866,11 @@ button.swiper-pagination-bullet {
 
   .advantages__item--grid-comfort {
     padding-top: 0;
-    padding-bottom: 22px;
+    padding-bottom: 14px;
   }
 
   .advantages__item--grid-experience {
-    padding-top: 0;
+    padding-top: 12px;
     padding-bottom: 0;
     margin: 0;
   }
@@ -5889,7 +5901,7 @@ button.swiper-pagination-bullet {
   }
 
   .advantages__measure--white-color {
-    margin-top: -25px;
+    margin-top: 6px;
   }
 
   .advantages__measure--white-color span {
@@ -5907,6 +5919,10 @@ button.swiper-pagination-bullet {
     padding-bottom: 7px;
   }
 
+  .advantages__text--experience h3 {
+    padding-bottom: 2px;
+  }
+
   .advantages__text p {
     margin: 0 auto;
   }
@@ -5920,7 +5936,7 @@ button.swiper-pagination-bullet {
   }
 
   .advantages__info--white-color {
-    padding-top: 10px;
+    padding-top: 17px;
     width: 90%;
   }
 
