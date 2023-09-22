@@ -337,8 +337,8 @@
 
 .season-tickets__price--shadow p {
   position: absolute;
-  top: 45%;
-  left: 49%;
+  top: 47%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-family: "RobotoCondensed", "Verdana", sans-serif;
   font-weight: 700;
@@ -351,7 +351,7 @@
   z-index: 1;
 
   @include vp-1199 {
-    top: 47%;
+    top: 51%;
     left: 49.5%;
   }
 

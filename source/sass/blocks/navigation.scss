@@ -1,9 +1,9 @@
 .navigation {
-  width: 40.5%;
+  width: 37.2%;
   margin: 41px 0 0 0;
 
   @include vp-1199 {
-    width: 63%;
+    width: 58.2%;
     margin: 45px 0 0 0;
   }
 
@@ -26,7 +26,7 @@
   @include vp-767 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 61px;
+    grid-column-gap: 75px;
     grid-row-gap: 16px;
     margin-left: 0;
     margin-top: 4px;
@@ -84,14 +84,8 @@
   line-height: 16.41px;
   color: $color-default-white;
   text-decoration: none;
-  padding: 5px 20px 5px 20px;
-
-  @include vp-1199 {
-    padding: 5px 15px 5px 15px;
-  }
 
   @include vp-767 {
-    padding-left: 0;
     font-size: 16px;
     line-height: 18.75px;
   }

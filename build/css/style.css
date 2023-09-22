@@ -1405,7 +1405,7 @@ button,
 }
 
 .navigation {
-  width: 40.5%;
+  width: 37.2%;
   margin: 41px 0 0 0;
 }
 
@@ -1437,7 +1437,6 @@ button,
   line-height: 16.41px;
   color: #ffffff;
   text-decoration: none;
-  padding: 5px 20px 5px 20px;
 }
 
 .navigation__link:hover {
@@ -2078,8 +2077,8 @@ button,
 
 .season-tickets__price--shadow p {
   position: absolute;
-  top: 45%;
-  left: 49%;
+  top: 47%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -4580,16 +4579,12 @@ button.swiper-pagination-bullet {
   }
 
   .navigation {
-    width: 63%;
+    width: 58.2%;
     margin: 45px 0 0 0;
   }
 
   .navigation__container ul {
     margin-left: 5px;
-  }
-
-  .navigation__link {
-    padding: 5px 15px 5px 15px;
   }
 
   .socials {
@@ -4685,7 +4680,7 @@ button.swiper-pagination-bullet {
 
   .gym__about p {
     text-align: center;
-    width: 74%;
+    width: 75%;
     margin: 0 auto;
   }
 
@@ -4804,7 +4799,7 @@ button.swiper-pagination-bullet {
   }
 
   .season-tickets__price--shadow p {
-    top: 47%;
+    top: 51%;
     left: 49.5%;
   }
 
@@ -5144,6 +5139,10 @@ button.swiper-pagination-bullet {
     margin-left: 64px;
   }
 
+  .promotions__link--white-color {
+    margin-left: 85px;
+  }
+
   .promotions__photo-wrapper {
     width: 58.85%;
   }
@@ -5426,7 +5425,7 @@ button.swiper-pagination-bullet {
     display: grid;
     -ms-grid-columns: (1fr)[2];
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 61px;
+    grid-column-gap: 75px;
     grid-row-gap: 16px;
     margin-left: 0;
     margin-top: 4px;
@@ -5468,7 +5467,6 @@ button.swiper-pagination-bullet {
   }
 
   .navigation__link {
-    padding-left: 0;
     font-size: 16px;
     line-height: 18.75px;
   }
