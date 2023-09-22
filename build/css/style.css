@@ -2071,7 +2071,7 @@ button,
   position: relative;
 }
 
-.season-tickets__price p::after {
+.season-tickets__price--blue p::after {
   content: url("../img/season-tickets/rubl.png");
   padding-left: 14px;
 }
@@ -2092,10 +2092,6 @@ button,
   padding: 0;
   opacity: 0.48;
   z-index: 1;
-}
-
-.season-tickets__price--shadow p::after {
-  content: none;
 }
 
 .season-tickets__button {
@@ -5678,7 +5674,7 @@ button.swiper-pagination-bullet {
     padding-bottom: 30px;
   }
 
-  .season-tickets__price p::after {
+  .season-tickets__price--blue p::after {
     content: url("../img/season-tickets/rubl-mobile.png");
     padding-left: 10px;
   }
