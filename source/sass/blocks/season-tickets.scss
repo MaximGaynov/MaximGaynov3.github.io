@@ -420,22 +420,27 @@
 
 .season-tickets__media {
   position: absolute;
-  min-width: 321px;
-  min-height: 384px;
   z-index: 0;
   object-fit: cover;
-  transform: rotate(4deg);
-  right: -1%;
-  bottom: -20%;
+  transform: rotate(150deg);
+  right: -8%;
+  bottom: -11%;
 
   @include vp-1199 {
-    width: 289px;
-    height: 345px;
-    bottom: -4.5%;
-    right: 1.5%;
+    bottom: -4.3%;
+    right: -1%;
   }
 
   @include vp-767 {
     display: none;
+  }
+}
+
+.season-tickets__media img {
+  object-fit: cover;
+
+  @include vp-1199 {
+    width: 289px;
+    height: 345px;
   }
 }
