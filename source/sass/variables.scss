@@ -34,7 +34,9 @@ $color-torch-red:                   #ff1553;
 
 $red-to-blue:                    linear-gradient(120deg, #ed0233 0%, #003eb7 75%);
 $red-to-blue2:                   linear-gradient(129deg, #d10a42 0%, #0041ca 100%);
-$red-to-blue-to-red:             conic-gradient(from 0.21turn at 16% 39%, rgba(184, 0, 39, 1) 2%, rgba(0, 61, 133, 1) 23%, rgba(0, 61, 133, 1) 35%, rgba(184, 0, 39, 1));
+$red-to-blue-to-red-desktop:     conic-gradient(from 0.21turn at 16% 39%, rgba(184, 0, 39, 1) 2%, rgba(0, 61, 133, 1) 23%, rgba(0, 61, 133, 1) 35%, rgba(184, 0, 39, 1));
+$red-to-blue-to-red-tablet:      conic-gradient(from 0.21turn at 21% 36%, rgba(184, 0, 39, 1) 2%, rgba(0, 61, 133, 1) 23%, rgba(0, 61, 133, 1) 35%, rgba(184, 0, 39, 1));
+$red-to-blue-to-red-phone:       conic-gradient(from 0.35turn at 35% 34%, rgba(184, 0, 39, 1) 2%, rgba(0, 61, 133, 1) 17%, rgba(0, 61, 133, 1) 35%, rgba(184, 0, 39, 1));
 
 // Typography
 // ---------------------------------
